@@ -1,6 +1,6 @@
 import React from 'react';
-import countryCardCss from './countryCard.scss'
-import button from '../../styles/general.scss';
+import countryCardCss from './countryCard.css'
+import button from '../../styles/general.css';
 
 function countryCard (props){
 
