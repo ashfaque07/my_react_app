@@ -1,6 +1,6 @@
 import React from 'react';
-import countryCardCss from './countryCard.css'
-import button from '../../styles/general.css';
+import './countryCard.css';
+import '../../styles/general.css';
 
 function countryCard (props){
 
@@ -9,7 +9,7 @@ function countryCard (props){
 			<img src={props.imgSrc} alt="country-Flag"></img>
 			<h4>{props.name}</h4>
 			<p>{props.population}</p>
-			<button onClick={props.callback} className="button button--primary">{props.buttonText}</button>
+			<button className="button button--primary">{props.buttonText}</button>
 		</div>
 	)
 }

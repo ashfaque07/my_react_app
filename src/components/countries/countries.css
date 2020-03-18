@@ -1,0 +1,8 @@
+.countries {
+
+	max-width: 990px;
+	width: calc(100% - 40px);
+	padding: 20px 10px;
+	margin: 10px 20px;
+	background-color: #e0e0e0;
+}
