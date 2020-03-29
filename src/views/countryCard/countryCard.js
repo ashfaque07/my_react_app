@@ -8,7 +8,7 @@ function countryCard (props){
 		<div className= "country-card">
 			<img src={props.imgSrc} alt="country-Flag"></img>
 			<h4>{props.name}</h4>
-			<p>{props.population}</p>
+			<p>Current Population : {props.population}</p>
 			<button className="button button--primary">{props.buttonText}</button>
 		</div>
 	)
