@@ -32,7 +32,8 @@ class Countries extends React.Component {
 		// context.setState((state)=>({
 		// 	visibleCountries: [...state.allCountries]
 		// }));
-		console.log("clicked");
+		// console.log("clicked");
+		console.log("Ashfaque");
 	}
 	render(){
 		console.log(this.state.allCountries[0]);
