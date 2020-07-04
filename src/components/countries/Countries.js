@@ -36,7 +36,7 @@ class Countries extends React.Component {
 		console.log("Ashfaque");
 	}
 	render(){
-		console.log(this.state.allCountries[0]);
+		// console.log(this.state.allCountries[0]);
 		return (
 			<section className="countries">
 				<div className="countryList">
